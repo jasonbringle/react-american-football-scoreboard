@@ -12,6 +12,10 @@
   margin-top: 10rem;
   padding: 5rem;
   border: 4px solid #aaaaaa;
+  background-image: url(https://image.shutterstock.com/image-photo/this-mile-high-stadium-game-600w-177979208.jpg);
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size:124rem;
 }
 
 .topRow {
@@ -116,7 +120,20 @@
 .homeButtons__touchdown,
 .homeButtons__fieldGoal,
 .awayButtons__touchdown,
-.awayButtons__fieldGoal {
+.awayButtons__fieldGoal
+ {
+  width: 20rem;
   margin: 1rem;
   border-radius: 4px;
+}
+
+.reset__button{
+  margin: 1rem;
+  border-radius: 45px;
+  background-color: red;
+}
+.resetButton{
+  display:flex;
+  align-content: center;
+
 }
